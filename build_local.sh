@@ -1,7 +1,7 @@
 NUGET_SOURCE_PATH=~/Code/nuget_local_source
 
 
-VERSION=2.0.1
+VERSION=2.0.2
 dotnet pack --configuration Release  -p:TreatWarningsAsErrors=false -o build  /p:PackageVersion=${VERSION}
 
 nuget add build/SchemaCollectionGenerator.${VERSION}.nupkg -Source ${NUGET_SOURCE_PATH}
