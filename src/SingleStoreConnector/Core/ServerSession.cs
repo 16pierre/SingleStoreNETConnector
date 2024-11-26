@@ -886,7 +886,6 @@ internal sealed class ServerSession
 		ValueTask<ArraySegment<byte>> task;
 		try
 		{
-			VerifyConnected();
 			task = m_payloadHandler!.ReadPayloadAsync(m_payloadCache, ProtocolErrorBehavior.Throw, ioBehavior);
 		}
 		catch (Exception ex)
