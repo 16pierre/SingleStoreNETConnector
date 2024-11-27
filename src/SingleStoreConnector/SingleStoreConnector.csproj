@@ -7,7 +7,7 @@
     <Copyright>Copyright 2022-2023 SingleStore Inc.</Copyright>
     <Authors>SingleStore Inc.</Authors>
     <AssemblyName>SingleStoreConnector</AssemblyName>
-    <PackageId>SingleStoreConnector</PackageId>
+    <PackageId>Pigment.SingleStoreConnector</PackageId>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>singlestore;singlestoreconnector;async;ado.net;database;netcore</PackageTags>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
